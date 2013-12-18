@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C65AD97D-C93D-4BF0-9A51-CBC0FB7DE657</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ratedate</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>462511E9-B4EE-4E3E-A575-13C396673D8B</key>
+		<string>https://github.com/fernandovl/ratedate.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ratedate.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>462511E9-B4EE-4E3E-A575-13C396673D8B</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/fernandovl/ratedate.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>462511E9-B4EE-4E3E-A575-13C396673D8B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>462511E9-B4EE-4E3E-A575-13C396673D8B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ratedate</string>
+		</dict>
+	</array>
+</dict>
+</plist>
