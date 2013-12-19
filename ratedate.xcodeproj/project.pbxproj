@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20E1368F18639F000023616C /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20E1368E18639F000023616C /* FacebookSDK.framework */; };
 		C362D3F5185F892800D17AD4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C362D3F4185F892800D17AD4 /* Foundation.framework */; };
 		C362D3F7185F892800D17AD4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C362D3F6185F892800D17AD4 /* CoreGraphics.framework */; };
 		C362D3F9185F892800D17AD4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C362D3F8185F892800D17AD4 /* UIKit.framework */; };
@@ -21,7 +22,6 @@
 		C362D416185F892800D17AD4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C362D3F8185F892800D17AD4 /* UIKit.framework */; };
 		C362D41E185F892800D17AD4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C362D41C185F892800D17AD4 /* InfoPlist.strings */; };
 		C362D420185F892800D17AD4 /* ratedateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C362D41F185F892800D17AD4 /* ratedateTests.m */; };
-		C362D42A185F896700D17AD4 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C362D429185F896700D17AD4 /* FacebookSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		20E1368E18639F000023616C /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
 		C362D3F1185F892800D17AD4 /* ratedate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ratedate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C362D3F4185F892800D17AD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C362D3F6185F892800D17AD4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -54,7 +55,6 @@
 		C362D41B185F892800D17AD4 /* ratedateTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ratedateTests-Info.plist"; sourceTree = "<group>"; };
 		C362D41D185F892800D17AD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C362D41F185F892800D17AD4 /* ratedateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ratedateTests.m; sourceTree = "<group>"; };
-		C362D429185F896700D17AD4 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../FacebookSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +63,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C362D3F7185F892800D17AD4 /* CoreGraphics.framework in Frameworks */,
-				C362D42A185F896700D17AD4 /* FacebookSDK.framework in Frameworks */,
+				20E1368F18639F000023616C /* FacebookSDK.framework in Frameworks */,
 				C362D3F9185F892800D17AD4 /* UIKit.framework in Frameworks */,
 				C362D3F5185F892800D17AD4 /* Foundation.framework in Frameworks */,
 			);
@@ -104,7 +104,7 @@
 		C362D3F3185F892800D17AD4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C362D429185F896700D17AD4 /* FacebookSDK.framework */,
+				20E1368E18639F000023616C /* FacebookSDK.framework */,
 				C362D3F4185F892800D17AD4 /* Foundation.framework */,
 				C362D3F6185F892800D17AD4 /* CoreGraphics.framework */,
 				C362D3F8185F892800D17AD4 /* UIKit.framework */,
@@ -385,6 +385,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/FValero/Documents/FacebookSDK,
+					"/Users/Evan/Site/ios-projects/ratedate",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ratedate/ratedate-Prefix.pch";
@@ -402,6 +403,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/FValero/Documents/FacebookSDK,
+					"/Users/Evan/Site/ios-projects/ratedate",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ratedate/ratedate-Prefix.pch";
